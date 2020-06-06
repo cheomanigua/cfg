@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "", "", "", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -27,8 +27,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Pcmanfm",  NULL,    NULL,       1 << 2,       0,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Pcmanfm",  NULL,    NULL,       1 << 2,       0,           -1 },
+	{ "Brave-browser",  NULL,       NULL,       1 << 3,       0,           -1 },
 };
 
 /* layout(s) */
