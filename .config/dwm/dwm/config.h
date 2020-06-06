@@ -61,6 +61,7 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *fmcmd[]  = { "pcmanfm",  NULL };
 static const char *webcmd[]  = { "firefox",  NULL };
 static const char *edcmd[]  = { "leafpad",  NULL };
+static const char *bravecmd[]  = { "brave-browser",  NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -89,6 +90,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_f, spawn,         {.v = webcmd } },
 	{ MODKEY|ShiftMask,             XK_p, spawn,         {.v = fmcmd } },
 	{ MODKEY|ShiftMask,             XK_l, spawn,         {.v = edcmd } },
+	{ MODKEY|ShiftMask,             XK_b, spawn,         {.v = bravecmd } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
