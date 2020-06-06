@@ -26,4 +26,4 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-./Music/dwm-bar/dwm_bar.sh &
+./config/dwm/dwm-bar/dwm_bar.sh &
