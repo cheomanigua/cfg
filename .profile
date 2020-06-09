@@ -26,4 +26,5 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+feh --bg-scale Downloads/ubuntu.jpg
 .config/dwm/dwm-bar/./dwm_bar.sh &
