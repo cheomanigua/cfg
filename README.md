@@ -3,7 +3,7 @@ dotfile bare git repository
 
 # Bare Git repository
 
-Bare Git repositorys are great to keep all your *dotfiles* aka *config files* in a repository. This way, if you reinstall the operating system again, you can clone the bare repository and have all the config files ready.
+Bare Git repositories are great to keep all your *dotfiles* aka *config files* in a repository. This way, if you reinstall the operating system again, you can clone the bare repository and have all the config files ready.
 
 ```
 git init --bare $HOME/.cfg
@@ -26,4 +26,4 @@ config push -u origin master
 ```
 
 # Warning
-**DON'T** issue **config add .** or **config add -A**. Always specify the files/directories you want to add. Otherwise you will add the whole directories and files configured with the `--work-tree` parameter. 
+**DO NOT** issue `config add .` or `config add -A`. Always specify the files/directories you want to add. Otherwise you will add the whole directories and files configured with the `--work-tree` parameter.

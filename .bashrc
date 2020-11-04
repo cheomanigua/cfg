@@ -88,7 +88,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
+alias ll='ls -lahF'
 alias la='ls -A'
 alias l='ls -CF'
 alias vi='vim'
@@ -122,3 +122,4 @@ alias config='/usr/bin/git --git-dir=/home/cheo/.cfg/ --work-tree=/home/cheo'
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export GOOGLE_APPLICATION_CREDENTIALS=/home/cheo/sergio/gce_sa_keys/ansible-sa.json
