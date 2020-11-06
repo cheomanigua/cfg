@@ -27,4 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 feh --bg-scale .wallpaper/ubuntu.jpg
-.config/dwm/dwm-bar/./dwm_bar.sh &
+~/.config/dwm/dwm-bar/dwm_bar.sh &

@@ -122,4 +122,4 @@ alias config='/usr/bin/git --git-dir=/home/cheo/.cfg/ --work-tree=/home/cheo'
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
-export GOOGLE_APPLICATION_CREDENTIALS=/home/cheo/sergio/gce_sa_keys/ansible-sa.json
+export GOOGLE_APPLICATION_CREDENTIALS=/home/cheo/sergio/gce_sa_keys/terraform-sa.json
