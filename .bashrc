@@ -92,7 +92,7 @@ alias ll='ls -lahF'
 alias la='ls -A'
 alias l='ls -CF'
 alias vi='vim'
-#alias packer='/home/cheo/bin/packer'
+alias bc='bc -l'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -122,4 +122,4 @@ alias config='/usr/bin/git --git-dir=/home/cheo/.cfg/ --work-tree=/home/cheo'
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
-export GOOGLE_APPLICATION_CREDENTIALS=/home/cheo/sergio/gce_sa_keys/terraform-sa.json
+export GOOGLE_APPLICATION_CREDENTIALS=/home/cheo/sergio/gce_sa_keys/mail-sa.json
