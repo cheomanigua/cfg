@@ -13,9 +13,10 @@ call plug#end()
 
 " filetype plugin indent on
 " Set tab width and indentations with spaces (no hard tabs) 
-set expandtab
+set tabstop=2 softtabstop=2
 set shiftwidth=2
-set softtabstop=2
+set expandtab
+set smartindent
 
 set autoindent
 set number " enable line numbering
